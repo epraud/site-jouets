@@ -14,6 +14,7 @@
 
   <?PHP
 
+
  $aujourdhui = getdate();
  $jour = $aujourdhui['mday'];
  $mois = $aujourdhui['mon'];
@@ -33,7 +34,7 @@
  <BR>
 
  <p><h2> Gestion des produits </h2></p>
-		<A  href="AfficheTousProduits.php">visualiser tous les produits - en image</A><BR>
+		<A  href="AfficherTousProduits.php">visualiser tous les produits - en image</A><BR>
 		<A  href="Afficheproduits1Categorie.php">visualiser les produits d'une catégorie </A> <BR>
          <A  href="ChoisirUnProduitSurId.php">visualiser un produit à partir de son N° </A><BR>
          <A  href="NouveauProduit.php">créer un nouveau produit </A><BR>
