@@ -1,15 +1,16 @@
-<html>
-<!-- Cette page fait suite à la page ChoisirUneCategorie-->
-<!-- elle récupère en méthode Get le champ TIdCat du formulaire de saisie-->
-<!-- elle affiche tous les produits correspondant à ce numéro catégorie -->
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?php
- 	include ('connexion.php');
-?>
-     
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title> Afficher tous les produits
+            
+        </title>
+        <link rel="stylesheet" href="jouets.css" type="text/css">
+    </head>
+    <body>
+          
 <p><h1>Liste des produits de la catégorie choisie</h1><br/>
 <?php
+	include ('connexion.php');
 // Récupération du champ TIdcat et vérification s'il a bien été saisi
 if (empty($_GET["TIdCat"]) )
 {	//Message d'erreur si la saisie n'a pas eu lieu 
@@ -30,7 +31,7 @@ if (empty($_GET["TIdCat"]) )
         	echo '<tr>';
        		echo '<td>'.$produit["id_prod"].'</td>';
         	echo '<td>'.$produit["lib_prod"].'</td>';
-        	$chemin = "ImagesProduits/".$produit["photo_prod"];
+        	$chemin = "images/".$produit["photo_prod"];
         	echo "<td><img src= $chemin width='100' height='75'></td>";
         	echo '</tr>'; 
     	}
