@@ -25,7 +25,7 @@
 
             $listeProduits = $connexion->query("SELECT * FROM produit where id_cat = $ChoixIdCat");
             echo'<table><tr><th classe="id">identifiant</th><th classe="des">Libelle</th></tr>';
-            foreach ($listeProduits as $produit) 
+            foreach ($listeProduits as $produit)
             
             {
                 echo '<tr>';

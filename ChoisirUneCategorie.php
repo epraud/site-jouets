@@ -20,8 +20,8 @@
         <!-- Saisie du code catégorie souhaité et envoie à la page AfficheProduits1Categ -->
         <!-- Mise en place d’un formulaire avec une zone de saisie pour le code  -->
 
-    <form- action = 'AfficheProduits1Categorie.php' method = 'GET'>
-Entrer le code catégorie </p>  <input type ="text" name = "TIdCat" size = "2"> 
+    <form- action = 'AfficheProduits1Categorie.php' method = 'get'>
+    </p>  <input type ="text" name = "TIdCat" size = "2"> 
     <input type ='submit' value = 'Voir les produits associés'>
 
     </form>
