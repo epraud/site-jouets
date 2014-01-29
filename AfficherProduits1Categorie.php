@@ -27,7 +27,7 @@
             echo'<table><tr><th classe="id">identifiant</th><th classe="des">Libelle</th></tr>';
             foreach ($listeProduits as $produit)
             
-            {
+             {
                 echo '<tr>';
                 echo '<td>' . $produit["id_prod"] . '</td>';
                 echo '<td>' . $produit["lib_prod"] . '</td>';
