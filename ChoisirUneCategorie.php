@@ -8,12 +8,13 @@
     <?php
             $listeCategories = $connexion->query("SELECT * FROM categorie order by 1");
             echo'<table><tr><th classe="id">identifiant</th><th classe="des">Libelle</th></tr>';
-            foreach ($listeCategories as $categorie) {
+            foreach ($listeCategories as $categorie) 
+            {
                 echo '<tr>';
                 echo '<td>' . $categorie["id_cat"] . '</td>';
                 echo '<td>' . $categorie["lib_cat"] . '</td>';
                 echo '</tr>';
-        }
+            }
         echo '</table>';
     ?>
 
