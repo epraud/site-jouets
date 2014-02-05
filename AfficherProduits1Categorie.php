@@ -38,6 +38,6 @@
             echo '</table>';
         }
         ?>
-        <p><h3> <a  href="index.php">Retour Page d'accueil</a></h3></p>
+        <p><h3> <a  href="Index.php">Retour Page d'accueil</a></h3></p>
     </body>
 </html>
