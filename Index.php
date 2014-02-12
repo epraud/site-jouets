@@ -1,9 +1,10 @@
 <HTML>
+    <HEAD>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <?PHP
  include ('connexion.php');
 ?>
-<HEAD>
+    </HEAD>
 	<link href="jouets.css" rel="stylesheet" media="all" type="text/css">
 <BODY>
 
@@ -39,6 +40,9 @@
          <A  href="ChoisirUnProduitSurId.php">visualiser un produit à partir de son N° </A><BR>
          <A  href="NouveauProduit.php">créer un nouveau produit </A><BR>
  <BR>
+ 
+ <p><h2> Gestion des clients </h2></p>
+ <A href="AfficheTousClients.php">visualiser tous les clients</A><BR>
  
 </DIV> 
 </BODY>
