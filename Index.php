@@ -42,7 +42,7 @@
  <BR>
  
  <p><h2> Gestion des clients </h2></p>
- <A href="AfficheTousClients.php">visualiser tous les clients</A><BR>
+         <A href="AfficheTousClients.php">visualiser tous les clients</A><BR>
  
 </DIV> 
 </BODY>

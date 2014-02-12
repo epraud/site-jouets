@@ -33,7 +33,6 @@
  		
 echo '</table>';    ?>
 
-  <h1> pied </h1>
 </body>
     
 <p><h3> <a  href="Index.php">Retour Page d'accueil</a></h3></p>
