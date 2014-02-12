@@ -10,7 +10,7 @@ h1 { /** gros titre */
 h2 { /** Les titres de paragraphes */
   text-decoration: underline; /* On souligne ces titres */
   font-variant : small-caps;   /* Et on les met en majuscules (les minuscules sont remplacées par des petites majuscules) */
-  color: black;             /* Texte de couleur bleu très foncé, presque noir (donc lisible) */
+  color: 000080;             /* Texte de couleur bleu très foncé, presque noir (donc lisible) */
 }
 h3 { /** Les sous-titres (titres de niveau 3) */
   color: black;             /* Texte de couleur bleu, plus clair que le titre h2 */
@@ -18,7 +18,7 @@ h3 { /** Les sous-titres (titres de niveau 3) */
   text-indent: 1em;           /* Et indenté par rapport aux autres titres et paragraphes, pour montrer la hierarchie */
 }
 h4 {
-   color: black;
+   color: 000080;
 }
 BODY { 
 background: url('http://thumbs.dreamstime.com/z/vieux-jouet-en-bois-d-avion-272521.jpg');

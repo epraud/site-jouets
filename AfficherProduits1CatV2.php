@@ -30,7 +30,7 @@
             echo '<tr>';
             echo '<td>' . $produit["id_prod"] . '</td>';
             echo '<td>' . $produit["lib_prod"] . '</td>';
-            $chemin = "images/" . $produit["photo_prod"];
+            $chemin = "ImagesProduits/" . $produit["photo_prod"];
             echo "<td><img src= $chemin width='100' height='75'></td>";
             echo '</tr>';
         }
