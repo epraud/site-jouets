@@ -38,6 +38,7 @@
             echo '</table>';
         }
         ?>
+        <p><h3> <a  href="ChoisirUneCategorie.php">Page pécédente</a></h3></p>
         <p><h3> <a  href="Index.php">Retour Page d'accueil</a></h3></p>
     </body>
 </html>

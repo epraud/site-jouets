@@ -23,6 +23,7 @@
         }
         echo '</table>';
         ?>
+         <p><h3> <a  href="Index.php">Retour Page d'accueil</a></h3></p>
     </BODY>
     
 </HTML>
