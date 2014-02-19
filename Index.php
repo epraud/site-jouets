@@ -31,14 +31,14 @@
 
  <p><h2> Gestion des catégories</h2> </p>
         <A  href="AfficheToutesCategories.php">visualiser toutes les catégories </A><BR>
-        <A  href="NouvelleCategorie.php">créer une nouvelle catégorie </A><BR>
+        <A  href="SaisirNouvelleCategorie.php">créer une nouvelle catégorie </A><BR>
  <BR>
 
  <p><h2> Gestion des produits </h2></p>
 	 <A  href="AfficherTousProduits.php">visualiser tous les produits - en image</A><BR>
 	 <A  href="ChoisirUneCategorieV2.php">visualiser les produits d'une catégorie </A> <BR>
          <A  href="ChoisirUneCategorie.php">visualiser un produit à partir de son N° </A><BR>
-         <A  href="NouveauProduit.php">créer un nouveau produit </A><BR>
+         <A  href="SaisirNouveauProduit.php">créer un nouveau produit </A><BR>
  <BR>
  
  <p><h2> Gestion des clients </h2></p>

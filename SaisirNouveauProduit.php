@@ -1,0 +1,23 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <p><h1>Création d'un nouveau produit </h1></p><br/>
+<?php
+include ('connexion.php');
+//préparation du formulaire de saisie des champs du nouveau produit avec la mise en place de la liste des catégories et l’alerte pour l’image
+
+?>
+<form  action = "TraitementNouveauProduit.php" method = "POST">
+     <table>
+	 <tbody>
+       	 <tr><td>Libellé</td> <td> <input name=TLibel size=20 > </td></tr>
+         <tr><td>Prix TTC</td> <td> <input name=TPrix size=30> </td></tr>
+       	 <tr><td>Intitulé image</td> <td> <input name=TImage size=30> </td></tr>
+         <tr><td>Id categorie</td> <td> <input name=Id_cat size=30> </td></tr>
+     </tbody>
+	</table>
+	<h3> Pensez à créer l'image dans le répertoire ImagesProduits avant de créer ce produit</h3>
+	<br/>
+	<input type="submit" value="Valider">
+</form>
+
+</html>
