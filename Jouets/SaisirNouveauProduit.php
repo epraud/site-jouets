@@ -8,6 +8,7 @@ include ('connexion.php');
 ?>
 <form  action = "TraitementNouveauProduit.php" method = "POST">
      <table>
+         <p /><table border=2 width="75%">
 	 <tbody>
        	 <tr><td>Libellé</td> <td> <input name=TLibel size=20 > </td></tr>
          <tr><td>Prix TTC</td> <td> <input name=TPrix size=30> </td></tr>
