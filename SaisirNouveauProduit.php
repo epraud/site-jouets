@@ -11,13 +11,26 @@ include ('connexion.php');
 	 <tbody>
        	 <tr><td>Libellé</td> <td> <input name=TLibel size=20 > </td></tr>
          <tr><td>Prix TTC</td> <td> <input name=TPrix size=30> </td></tr>
+         <tr><td>Caractéristique</td> <td> <input name=Car_prod size=30> </td></tr>
        	 <tr><td>Intitulé image</td> <td> <input name=TImage size=30> </td></tr>
-         <tr><td>Id categorie</td> <td> <input name=Id_cat size=30> </td></tr>
+         <tr><td>Catégorie</td><td><select name="Id_cat" >
+         <option value=1> Véhicules</option>
+         <option value=2> Bascules,Porteurs</option>
+         <option value=3> Trains</option>
+         <option value=4> Instruments de musique</option>
+         <option value=5> Mobiles</option>
+         <option value=6> Jeux traditionnels</option>
+         <option value=7> Marionnettes</option>
+         </select></td></tr>
+
+
+         
+
      </tbody>
 	</table>
 	<h3> Pensez à créer l'image dans le répertoire ImagesProduits avant de créer ce produit</h3>
 	<br/>
 	<input type="submit" value="Valider">
 </form>
-
+<p> <a  href="Index.php">Retour au menu</a></p><br/>
 </html>
